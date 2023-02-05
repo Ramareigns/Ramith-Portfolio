@@ -6,6 +6,7 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import Robot from "../public/HiRobot.gif";
 import { useRouter } from "next/router";
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -73,6 +74,11 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
+            <Link href="Resume & Cover Letter- Ramith Wijesinghe.pdf" target="_blank">
+              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
+                Resume
+              </li>
+            </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -106,7 +112,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-700 my-4 ">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let'S Create Something Amazing
+                Welcome to my Portfolio Webpage!!
               </p>
             </div>
           </div>
@@ -135,6 +141,11 @@ const Navbar = () => {
               <Link href="/#Contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
+                </li>
+              </Link>
+              <Link href="Resume & Cover Letter- Ramith Wijesinghe.pdf" target="_blank">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Resume
                 </li>
               </Link>
             </ul>
