@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 const Main = () => {
   return (
@@ -10,7 +11,22 @@ const Main = () => {
           <h1 className="py-4 ">
             Hi, I'm <span className="text-purple-700">Ramith Wijesinghe</span>
           </h1>
-          <h2 className="py-4">Undergradute Student in Information Science</h2>
+
+          <div className="py-4 font-bold text-5xl text-gray-500">
+            <span>
+              <Typewriter
+                words={["Undergradute Student", "Programmer", "Web Developer"]}
+                loop={0}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1500}
+              />
+            </span>
+            
+          </div>
+
           <p className="py-4 font-bold text-grey-500 max-w-[70%]  mt-0 inline">
             I am an undergraduate student, currently pursuing a degree in
             Information Science and I am interested in the fields of Data
@@ -25,7 +41,10 @@ const Main = () => {
             </span>
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/"
+              target="_blank"
+            >
               <div className="rounded-full shadow-lg bg-purple-300  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaLinkedinIn />
               </div>
