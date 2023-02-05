@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col text-center justify-center h-full">
         <h2 className="py-4 tracking-widset">Skills</h2>
         <p className="font-bold p-4 text-purple-800 uppercase">What I Can Do</p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
 
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
             <div className="grid grid-cols-1 gap-4 justify-center iterms-center">

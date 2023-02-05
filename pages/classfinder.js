@@ -58,7 +58,7 @@ const classfinder = () => {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center pb-20">
         <Link href="/#Projects">
           <p className="underline cursor-pointer font-bold">BACK</p>
         </Link>
