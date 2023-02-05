@@ -7,7 +7,7 @@ import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
   return (
-    <div id="Projects" className="w-full flex justify-center py-48">
+    <div id="Projects" className="w-full flex justify-center py-24">
       <div className="max-w-[1240px]  px-2 sm:mx-10 py-16 text-center">
         <h2 className="py-4">Projects</h2>
         <p className="font-bold p-4 text-purple-800 uppercase">
