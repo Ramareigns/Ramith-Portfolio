@@ -8,9 +8,8 @@ const Skills = () => {
         <h2 className="py-4 tracking-widset">Skills</h2>
         <p className="font-bold p-4 text-purple-800 uppercase">What I Can Do</p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -25,7 +24,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
@@ -40,7 +39,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -55,7 +54,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -70,7 +69,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -85,10 +84,10 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/php.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
                   width="64"
                   height="64"
                   alt="/"
@@ -100,10 +99,10 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/r.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
                   width="64"
                   height="64"
                   alt="/"
@@ -115,7 +114,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
@@ -130,10 +129,25 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
-            <div className="grid grid-cols-1 gap-4 justify-center iterms-center">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/laravel.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  width="64"
+                  height="64"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>C#</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-purple-300 ease-in duration-300">
+            <div className="grid grid-cols-1 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
                   width="64"
                   height="64"
                   alt="/"
@@ -144,7 +158,6 @@ const Skills = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import Bitcamp22 from "../public/CF-WebPage.gif";
+import wImage from "../public/weather.png";
+import game from "../public/2D-Game.gif";
 import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
@@ -18,7 +20,21 @@ const Projects = () => {
             title="Class Finder"
             backgroundImg={Bitcamp22}
             projectUrl="/classfinder"
+            code = "HTML & CSS"
           />
+          <ProjectItems
+            title="Weather Webpage"
+            backgroundImg={wImage}
+            projectUrl="/weatherApp"
+            code = "Laravel & Tailwind CSS"
+          />
+          <ProjectItems
+            title="2D Indie Game"
+            backgroundImg={game}
+            projectUrl="/birthdayGame"
+            code = "Unity & C#"
+          />
+          
         </div>
       </div>
     </div>
