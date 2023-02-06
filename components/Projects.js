@@ -4,7 +4,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import Bitcamp22 from "../public/CF-WebPage.gif";
 import wImage from "../public/weather.png";
-import game from "../public/2D-Game1.gif";
+import game from "../public/2D-Game.gif";
 import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
