@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import game from "../public/2D-Game.gif";
+import game from "../public/2D-Game1.gif";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
