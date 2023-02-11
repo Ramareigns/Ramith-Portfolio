@@ -12,7 +12,7 @@ const Main = () => {
             Hi, I'm <span className="text-purple-700">Ramith Wijesinghe</span>
           </h1>
 
-          <div className="py-4 font-bold text-5xl text-gray-500">
+          <div className="py-4 font-bold text-2xl md:text-5xl text-gray-500">
             <span>
               <Typewriter
                 words={["Undergradute Student", "Programmer", "Web Developer"]}

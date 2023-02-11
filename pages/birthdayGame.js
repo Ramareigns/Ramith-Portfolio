@@ -27,9 +27,10 @@ const birthdayGame = () => {
           <p className="py-4 text-xl">Overview</p>
           <p>
             I built a simple 2D indie game using Unity game engine and C#. The
-            main purpose was as a gift for my Girldfriend for her birthday. I
-            used customized sprites and world enviorenments as well as sound
-            effects. 
+            reason I decided to develop a 2D was to make one as a present for my
+            Girlfriends birthday. I used customized sprites and pixelart made
+            through Aseprite and world enviorenments. I also managesd to use
+            customized sound effects.
           </p>
           {/* <a href="https://ramareigns.github.io/Website-Bitcam22/">
             <button className="px-8 py-2 mt-4 mr-8 text-white">Demo(Mac)</button>
