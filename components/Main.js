@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import ProfilePic1 from "../public/ProfilePic1.png";
 
+
 const Main = () => {
   return (
     <div id="Main" className="w-full h-screen text-center ">
@@ -12,9 +13,9 @@ const Main = () => {
       {/* <div className = " flex absolute justify-center items-center hover:scale-125 ease-in duration-300">
         <div className=" rounded-full  border border-[#F7ABBA] opacity-10 h-80 w-80 animate-pulse "/>
       </div> */}
-          <div className="mt-32 sm:mt-20 mx-10">
+        <div className="mt-32 sm:mt-20 mx-10">
           <div>
-            <img className="relative rounded-full h-32 w-32 mx-auto mb-10" src={ProfilePic1} alt="" width="75" height="25"/>
+            <Image className="relative rounded-full h-32 w-32 mx-auto mb-10" src={ProfilePic1} alt="" width="75" height="25"/>
           </div>
           <h2 className="py-4 ">
             Hi, I'm <span className="text-purple-700">Ramith Wijesinghe</span>
