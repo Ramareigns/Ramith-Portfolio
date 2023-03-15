@@ -80,7 +80,7 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden text-black">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-yellow-200 p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#2b1055] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
@@ -105,7 +105,7 @@ const Navbar = () => {
 
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-black p-3 cursor-pointer"
+                className="rounded-full bg-white text-black text-bold shadow-lg shadow-black p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -155,22 +155,22 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/" target="_blank">
-                  <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-white text-black shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
                 <a href="https://github.com/Ramareigns" target="_blank">
-                  <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-white text-black shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
                     <FaGithub />
                   </div>
                 </a>
                 <a href="mailto:rwijesin@terpmail.umd.edu" target="_blank">
-                  <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-white text-black shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </a>
                 <a href="https://twitter.com/RamithWijesingh" target="_blank">
-                  <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-white text-black shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-white ease-in duration-300">
                     <FaTwitter />
                   </div>
                 </a>
