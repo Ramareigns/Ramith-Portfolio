@@ -45,22 +45,22 @@ const Main = () => {
               href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/"
               target="_blank"
             >
-              <div className="rounded-full shadow-lg bg-purple-300  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
             <a href="https://github.com/Ramareigns" target="_blank">
-              <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
             <a href="mailto:rwijesin@terpmail.umd.edu" target="_blank">
-              <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>
             <a href="https://twitter.com/RamithWijesingh" target="_blank">
-              <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaTwitter />
               </div>
             </a>

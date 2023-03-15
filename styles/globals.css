@@ -13,7 +13,7 @@ scroll-behavior: smooth!important;
 @layer base {
   
   body {
-    @apply bg-yellow-200 text-gray-700 tracking-wide;
+    @apply bg-[#2b1055]  text-white tracking-wide;
     
   }
   h1,
@@ -38,6 +38,6 @@ scroll-behavior: smooth!important;
   }
 
   button {
-    @apply shadow-xl shadow-black rounded-xl uppercase bg-gradient-to-r from-purple-600 to-purple-300;
+    @apply shadow-xl shadow-black rounded-xl uppercase bg-purple-500;
   }
 }
