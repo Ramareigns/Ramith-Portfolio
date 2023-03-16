@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import ProfilePic2 from "../public/ProfilePic2.jpg";
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
                     <h2 className="py-4">About Me</h2>
                     <p className="font-bold p-4 text-purple-800 uppercase">What Am I</p>
                 </div>
-            <div className="px-5 py-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
+            <div className="px-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
                 <div>
                     <Image className="relative rounded-xl h-80 w-80 mx-auto mb-10" src={ProfilePic2} alt="" width="100" height="100"/>
                 </div>
@@ -30,8 +31,16 @@ const About = () => {
                         </span>
                         </p>
                 </div>
+               
 
             </div>
+            <div className="flex item-center justify-center gap-5 p-4 mb-5" >
+                    <Link href="Resume & Cover Letter- Ramith Wijesinghe.pdf" target="_blank">
+                        <p className="text-center py-3  text-black font-bold text-lg rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+                        Resume
+                        </p>
+                    </Link>
+                </div>
             
             </div>
         </div>

@@ -51,7 +51,7 @@ const Navbar = () => {
         <Link href="/">
           <Image src={Robot} alt="/" width="75" height="25" />
         </Link>
-
+{/* 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
@@ -88,7 +88,7 @@ const Navbar = () => {
           <div onClick={handleNav} className="md:hidden text-black">
             <AiOutlineMenu size={25} />
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         className={

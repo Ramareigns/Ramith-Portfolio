@@ -114,13 +114,13 @@ const Contact = () => {
             </div>
           </div> */}
         </div>
-        <div className="flex justify-center pb-10 pt-20">
+        {/* <div className="flex justify-center pb-10 pt-20">
           <Link href="/">
             <div className="rounded-full shadow-lg bg-white text-black shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-black hover:text-white ease-in duration-300">
               <HiOutlineChevronDoubleUp className="" size={30} />
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
