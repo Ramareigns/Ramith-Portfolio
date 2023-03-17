@@ -9,13 +9,13 @@ const ProjectItems = ({ title, backgroundImg, projectUrl, code }) => {
     // <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10  transition:opacity duration-200 overflow-hidden">
       <div className="relative p-4 md:px-10 flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl group hover:bg-gradient-to-r from-purple-400 to-purple-800 ">
         <motion.div
-          initial={{
-            y: -300,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          // initial={{
+          //   y: -300,
+          //   opacity: 0,
+          // }}
+          // transition={{ duration: 1.2 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true }}
         >
           <Image
             className=" rounded-xl group-hover:opacity-10"

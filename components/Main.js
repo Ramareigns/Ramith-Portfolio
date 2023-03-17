@@ -32,7 +32,7 @@ const Main = () => {
            whileInView={"show"}
            viewport={{ once: false, amount: 0.5 }}>
             <Image
-              className="relative rounded-full h-80 w-80 mx-auto mb-10"
+              className="relative rounded-full h-50 w-50 md:h-80 md:w-80 mx-auto mb-10"
               src={ProfilePic1}
               alt=""
               width="600"
