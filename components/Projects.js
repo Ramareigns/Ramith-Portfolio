@@ -22,7 +22,7 @@ const Projects = () => {
       <h2 className="py-4 mt-28">Projects</h2>
       <p className="font-bold p-4 text-purple-800 uppercase">What I've Built</p>
 
-      <div className="relative w-full flex space-x-5 overflow-x-scroll overflow-y-hidden p-5 snap-x snap-mandatory z-20">
+      <div className="relative w-full flex space-x-5 overflow-x-scroll overflow-y-hidden p-5 snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-purple-800/80">
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44">
           <ProjectItems
             title="Class Finder"

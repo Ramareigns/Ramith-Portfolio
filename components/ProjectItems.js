@@ -26,13 +26,13 @@ const ProjectItems = ({ title, backgroundImg, projectUrl, code }) => {
         </motion.div>
 
         <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          <h3 className="text-2xl text-white tracking-wider text-center">
+          <h3 className="md:text-2xl text-white tracking-wider text-center">
             {title}
           </h3>
           <p className="pb-4 pt-2 font-bold text-white text-center">{code}</p>
           <div className="flex item-center justify-center gap-5 p-4 mb-5">
             <Link href={projectUrl}>
-              <p className="text-center py-3  text-black font-bold text-lg rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+              <p className="text-center py-3  text-black font-bold md:text-lg rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 More Info
               </p>
             </Link>

@@ -101,7 +101,7 @@ const Main = () => {
           {/* <ul style={{ color: `${linkColor}` }} className="hidden md:flex"> */}
           <div className="bg-black/20 w-full  backdrop-blur-3xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl ">
             <Link
-              href="/"
+              href="/#Main"
               smooth={true}
               spy={true}
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
