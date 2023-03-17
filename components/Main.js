@@ -14,7 +14,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "@/components/variants";
 import { Typewriter } from "react-simple-typewriter";
-import ProfilePic1 from "../public/ProfilePic1.png";
+import ProfilePic1 from "../public/ProfilePic1.JPG";
 
 const Main = () => {
   const [nav, setNav] = useState(false);
@@ -25,21 +25,25 @@ const Main = () => {
         {/* <div className = " flex absolute justify-center items-center hover:scale-125 ease-in duration-300">
         <div className=" rounded-full  border border-[#F7ABBA] opacity-10 h-80 w-80 animate-pulse "/>
       </div> */}
-        <div className="mt-32 sm:mt-20 mx-10">
-          <div>
+        <div className="mt-32 sm:mt-10 mx-10">
+          <motion.div
+           variants={fadeIn("down", 0.5)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{ once: false, amount: 0.5 }}>
             <Image
-              className="relative rounded-full h-32 w-32 mx-auto mb-10"
+              className="relative rounded-full h-80 w-80 mx-auto mb-10"
               src={ProfilePic1}
               alt=""
-              width="75"
-              height="25"
+              width="600"
+              height="600"
             />
-          </div>
+          </motion.div>
           <motion.div
-            variants={fadeIn("up", 0.7)}
+            variants={fadeIn("up", 0.8)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.8 }}
           >
             <h2 className="py-4 ">
               <span className="text-purple-700">Ramith Wijesinghe</span>

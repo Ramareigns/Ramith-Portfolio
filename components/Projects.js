@@ -9,6 +9,7 @@ import game from "../public/2D-Game.gif";
 import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
+  const projects = [1, 2, 3];
   return (
     <motion.div
       id="Projects"
@@ -21,25 +22,31 @@ const Projects = () => {
       <h2 className="py-4 mt-28">Projects</h2>
       <p className="font-bold p-4 text-purple-800 uppercase">What I've Built</p>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-        <ProjectItems
-          title="Class Finder"
-          backgroundImg={Bitcamp22}
-          projectUrl="/classfinder"
-          code="HTML & CSS"
-        />
-        <ProjectItems
-          title="Weather Webpage"
-          backgroundImg={wImage}
-          projectUrl="/weatherApp"
-          code="Laravel & Tailwind CSS"
-        />
-        <ProjectItems
-          title="2D Indie Game"
-          backgroundImg={game}
-          projectUrl="/birthdayGame"
-          code="Unity & C#"
-        />
+      <div className="relative w-full flex space-x-5 overflow-x-scroll overflow-y-hidden p-5 snap-x snap-mandatory z-20">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44">
+          <ProjectItems
+            title="Class Finder"
+            backgroundImg={Bitcamp22}
+            projectUrl="/classfinder"
+            code="HTML & CSS"
+          />
+        </div>
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44">
+          <ProjectItems
+            title="Weather Webpage"
+            backgroundImg={wImage}
+            projectUrl="/weatherApp"
+            code="Laravel & Tailwind CSS"
+          />
+        </div>
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44">
+          <ProjectItems
+            title="2D Indie Game"
+            backgroundImg={game}
+            projectUrl="/birthdayGame"
+            code="Unity & C#"
+          />
+        </div>
       </div>
     </motion.div>
   );
