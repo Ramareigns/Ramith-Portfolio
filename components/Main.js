@@ -25,14 +25,14 @@ const Main = () => {
         {/* <div className = " flex absolute justify-center items-center hover:scale-125 ease-in duration-300">
         <div className=" rounded-full  border border-[#F7ABBA] opacity-10 h-80 w-80 animate-pulse "/>
       </div> */}
-        <div className="mt-10 md:mt-32 sm:mt-10 mx-10">
+        <div className="mt-10 md:mt-22 sm:mt-10 mx-10">
           <motion.div
            variants={fadeIn("down", 0.5)}
            initial="hidden"
            whileInView={"show"}
            viewport={{ once: false, amount: 0.5 }}>
             <Image
-              className="relative rounded-full h-[300px]] w-[200px] md:h-80 md:w-80 mx-auto mb-10"
+              className="relative rounded-full h-[300px]] w-[200px] md:h-[250px] md:w-[250px] mx-auto mb-10"
               src={ProfilePic1}
               alt=""
               width="600"
@@ -103,7 +103,7 @@ const Main = () => {
             <Link
               href="/#Main"
               smooth={true}
-              spy={true}
+    
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
             >
               <BiHomeAlt />
@@ -111,7 +111,7 @@ const Main = () => {
             <Link
               href="/#About"
               smooth={true}
-              spy={true}
+             
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
             >
               <BsFillPersonFill />
@@ -119,7 +119,7 @@ const Main = () => {
             <Link
               href="/#Work"
               smooth={true}
-              spy={true}
+             
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
             >
               <BsBriefcase />
@@ -127,7 +127,7 @@ const Main = () => {
             <Link
               href="/#Skills"
               smooth={true}
-              spy={true}
+             
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
             >
               <BsFillLightningChargeFill />
@@ -135,7 +135,7 @@ const Main = () => {
             <Link
               href="/#Projects"
               smooth={true}
-              spy={true}
+            
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
             >
               <BsClipboardData />
@@ -143,7 +143,7 @@ const Main = () => {
             <Link
               href="/#Contact"
               smooth={true}
-              spy={true}
+              
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
             >
               <BsChatSquare />
