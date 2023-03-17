@@ -25,14 +25,14 @@ const Main = () => {
         {/* <div className = " flex absolute justify-center items-center hover:scale-125 ease-in duration-300">
         <div className=" rounded-full  border border-[#F7ABBA] opacity-10 h-80 w-80 animate-pulse "/>
       </div> */}
-        <div className="mt-32 sm:mt-10 mx-10">
+        <div className="mt-10 md:mt-32 sm:mt-10 mx-10">
           <motion.div
            variants={fadeIn("down", 0.5)}
            initial="hidden"
            whileInView={"show"}
            viewport={{ once: false, amount: 0.5 }}>
             <Image
-              className="relative rounded-full h-50 w-50 md:h-80 md:w-80 mx-auto mb-10"
+              className="relative rounded-full h-[300px]] w-[200px] md:h-80 md:w-80 mx-auto mb-10"
               src={ProfilePic1}
               alt=""
               width="600"
