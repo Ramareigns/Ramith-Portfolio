@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "@/components/variants";
-import ProfilePic2 from "../public/ProfilePic2.jpg";
+import ProfilePic2 from "../public/ProfilePic2.png";
 
 const About = () => {
   return (

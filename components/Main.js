@@ -14,7 +14,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "@/components/variants";
 import { Typewriter } from "react-simple-typewriter";
-import ProfilePic1 from "../public/ProfilePic1.JPG";
+import ProfilePic1 from "../public/ProfilePic1.png";
 
 const Main = () => {
   const [nav, setNav] = useState(false);
