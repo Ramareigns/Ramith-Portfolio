@@ -6,7 +6,6 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import Robot from "../public/HiRobot.gif";
 import { useRouter } from "next/router";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -51,7 +50,7 @@ const Navbar = () => {
         <Link href="/">
           <Image src={Robot} alt="/" width="75" height="25" />
         </Link>
-{/* 
+        {/* 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
@@ -153,7 +152,10 @@ const Navbar = () => {
                   Contact
                 </li>
               </Link>
-              <Link href="Resume & Cover Letter- Ramith Wijesinghe.pdf" target="_blank">
+              <Link
+                href="Resume & Cover Letter- Ramith Wijesinghe.pdf"
+                target="_blank"
+              >
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
@@ -164,7 +166,10 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/"
+                  target="_blank"
+                >
                   <div className="rounded-full shadow-lg bg-white text-black shadow-black p-3 cursor-pointer hover:scale-105 hover:bg-gray-500  ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
