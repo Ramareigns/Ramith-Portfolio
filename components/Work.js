@@ -2,7 +2,7 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div id="Work" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="Work" className="w-full md:h-screen p-2 flex items-center mb-64">
       <div className="max-w-[1240px] m-auto ">
         <div className="w-full h-full mx-auto py-5 p-2 flex flex-col justify-center items-center">
           <h2 className="py-4">Work Experience</h2>

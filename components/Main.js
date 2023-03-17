@@ -15,17 +15,23 @@ import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "@/components/variants";
 import { Typewriter } from "react-simple-typewriter";
 import ProfilePic1 from "../public/ProfilePic1.png";
+import Robot from "../public/HiRobot.gif";
 
 const Main = () => {
   const [nav, setNav] = useState(false);
   const [linkColor, setLinkColor] = useState("#1f2937");
   return (
     <div id="Main" className="w-full h-screen text-center ">
+      
+      {/* <div className="p-2">
+      <Image src={Robot} alt="/" width="75" height="25" />
+      </div> */}
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+        
         {/* <div className = " flex absolute justify-center items-center hover:scale-125 ease-in duration-300">
         <div className=" rounded-full  border border-[#F7ABBA] opacity-10 h-80 w-80 animate-pulse "/>
       </div> */}
-        <div className="mt-10 md:mt-22 sm:mt-10 mx-10">
+        <div className="mx-10">
           <motion.div
            variants={fadeIn("down", 0.5)}
            initial="hidden"
@@ -104,7 +110,7 @@ const Main = () => {
               href="/#Main"
               smooth={true}
     
-              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
+              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90  active:bg-white active:rounded-full  "
             >
               <BiHomeAlt />
             </Link>
@@ -112,7 +118,7 @@ const Main = () => {
               href="/#About"
               smooth={true}
              
-              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
+              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsFillPersonFill />
             </Link>
@@ -120,7 +126,7 @@ const Main = () => {
               href="/#Work"
               smooth={true}
              
-              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
+              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsBriefcase />
             </Link>
@@ -128,7 +134,7 @@ const Main = () => {
               href="/#Skills"
               smooth={true}
              
-              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
+              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsFillLightningChargeFill />
             </Link>
@@ -136,7 +142,7 @@ const Main = () => {
               href="/#Projects"
               smooth={true}
             
-              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
+              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsClipboardData />
             </Link>
@@ -144,7 +150,7 @@ const Main = () => {
               href="/#Contact"
               smooth={true}
               
-              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/50 active:bg-white active:rounded-full  "
+              className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsChatSquare />
             </Link>

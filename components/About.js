@@ -7,7 +7,7 @@ import ProfilePic2 from "../public/ProfilePic2.png";
 
 const About = () => {
   return (
-    <div id="About" className="w-full md:h-screen p-2 flex items-center py-14">
+    <div id="About" className="w-full md:h-screen p-2 flex items-center mb-64">
       <div className="max-w-[1240px] m-auto ">
         <div className="w-full h-full mx-auto py-5 p-2 flex flex-col justify-center items-center">
           <h2 className="py-4">About Me</h2>
@@ -21,7 +21,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.5 }}
           >
             <Image
-              className="relative rounded-xl h-[200px] w-[150px] md:h-[550px] md:w-[1500px] mx-auto"
+              className="relative rounded-xl h-[200px] w-[150px] md:h-[450px] md:w-[1200px] mx-auto"
               src={ProfilePic2}
               alt=""
               width="600"

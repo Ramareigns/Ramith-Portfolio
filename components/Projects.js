@@ -16,11 +16,11 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-col max-w-full px-10 mx-auto items-center"
+      className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-col max-w-full px-10 mb-64 mx-auto items-center"
     >
       {/* <div className="max-w-[1240px]  px-2 sm:mx-10 py-16 text-center"> */}
-      <h2 className="py-4 mt-28">Projects</h2>
-      <p className="font-bold p-4 text-purple-800 uppercase">What I've Built</p>
+      <h2 className="py-5 ">Projects</h2>
+      <p className="font-bold p-2 text-purple-800 uppercase">What I've Built</p>
 
       <div className="relative w-full flex space-x-5 overflow-x-scroll overflow-y-hidden p-5 snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-purple-800/80">
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44">
