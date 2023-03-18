@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
+import { fadeIn } from "@/components/variants";
 
 const Skills = () => {
   return (
@@ -15,7 +16,13 @@ const Skills = () => {
         <h2 className="py-4 tracking-widset">Skills</h2>
         <p className="font-bold p-4 text-purple-800 uppercase">What I Can Do</p>
 
-        <div className="grid mt-5 grid-cols-2 md:grid-cols-4 gap-4 mx-auto">
+        <motion.div
+          variants={fadeIn("up", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.5 }}
+          className="grid mt-5 grid-cols-2 md:grid-cols-4 gap-4 mx-auto"
+        >
           <div className="p-8 shadow-xl rounded-full w-[150px] h-[150px] md:h-[150px] md:w-[150px] bg-black/30 hover:scale-105 hover:bg-purple-300 ease-in duration-300">
             <div className="flex flex-col p-2 justify-center items-center">
               <div className="m-auto">
@@ -166,7 +173,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </motion.div>
   );
