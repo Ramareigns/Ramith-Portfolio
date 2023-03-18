@@ -17,10 +17,10 @@ const Skills = () => {
         <p className="font-bold p-4 text-purple-800 uppercase">What I Can Do</p>
 
         <motion.div
-          variants={fadeIn("up", 0.5)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.5 }}
+          // variants={fadeIn("up", 0.5)}
+          // initial="hidden"
+          // whileInView={"show"}
+          // viewport={{ once: false, amount: 0.5 }}
           className="grid mt-5 grid-cols-2 md:grid-cols-4 gap-4 mx-auto"
         >
           <div className="p-8 shadow-xl rounded-full w-[150px] h-[150px] md:h-[150px] md:w-[150px] bg-black/30 hover:scale-105 hover:bg-purple-300 ease-in duration-300">
