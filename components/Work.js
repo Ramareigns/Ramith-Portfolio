@@ -1,12 +1,21 @@
 import React from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Work = () => {
   return (
-    <div id="Work" className="w-full md:h-screen p-2 flex items-center mb-64">
+    <motion.div
+      id="Work"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className="w-full md:h-screen p-2 flex items-center mb-64"
+    >
       <div className="max-w-[1240px] m-auto ">
         <div className="w-full h-full mx-auto py-5 p-2 flex flex-col justify-center items-center">
           <h2 className="py-4">Work Experience</h2>
-          <p className="font-bold p-4 text-purple-800 uppercase">What I have Done</p>
+          <p className="font-bold p-4 text-purple-800 uppercase">
+            What I have Done
+          </p>
         </div>
 
         <div className="px-5 py-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
@@ -52,7 +61,7 @@ const Work = () => {
         </div>
         <div></div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

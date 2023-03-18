@@ -7,7 +7,13 @@ import ProfilePic2 from "../public/ProfilePic2.png";
 
 const About = () => {
   return (
-    <div id="About" className="w-full md:h-screen p-2 flex items-center mb-64">
+    <motion.div
+      id="About"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className="w-full md:h-screen p-2 flex items-center mb-64"
+    >
       <div className="max-w-[1240px] m-auto ">
         <div className="w-full h-full mx-auto py-5 p-2 flex flex-col justify-center items-center">
           <h2 className="py-4">About Me</h2>
@@ -55,7 +61,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

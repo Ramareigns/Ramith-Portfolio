@@ -3,10 +3,15 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div id="Contact" className="w-full lg:h-screen text-center mb-16">
+    <motion.div id="Contact"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+    className="w-full lg:h-screen text-center mb-16">
       <div className="max-w-[1240px] m-auto px-2  w-full ">
         <h2 className="py-4 tracking-widset ">Contact</h2>
         <p className="font-bold p-4 text-purple-800 uppercase text-center">
@@ -124,7 +129,7 @@ const Contact = () => {
           </Link>
         </div> */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

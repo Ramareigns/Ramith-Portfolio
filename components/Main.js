@@ -23,7 +23,7 @@ const Main = () => {
   return (
     <div id="Main" className="w-full h-screen text-center ">
       
-      {/* <div className="p-2">
+      {/* <div className="p-2 ">
       <Image src={Robot} alt="/" width="75" height="25" />
       </div> */}
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
