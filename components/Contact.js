@@ -11,18 +11,18 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-    className="w-full lg:h-screen text-center mb-16">
+    className="w-full lg:h-screen text-center p-2 mb-16">
       <div className="max-w-[1240px] m-auto px-2  w-full ">
-        <h2 className="py-4 tracking-widset ">Contact</h2>
-        <p className="font-bold p-4 text-purple-800 uppercase text-center">
+        <h2 className="py-2 tracking-widset ">Contact</h2>
+        <p className="font-bold p-2 text-purple-800 uppercase text-center">
           Get In Touch with Me
         </p>
         <div className="w-full  items-center justify-center flex">
           <div className=" md:max-w-[1200px] shadow-xl shadow-black rounded-xl sm:p-8 p-2 ">
             <div className="lg:p-4 h-full flex md:flex-row flex-col">
-              <div className="mx-auto h-[250px] w-[350px] ">
+              <div className="mx-auto h-[180px] w-[270px] ">
                 <img
-                  className="rounded-xl hover:scale-105 ease-in duration-300 md:h-[280px] md:w-[360px]"
+                  className="rounded-xl hover:scale-105 ease-in duration-300 md:h-[250px] md:w-[450px]"
                   src="https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="/"
                 />
