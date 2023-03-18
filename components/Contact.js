@@ -30,13 +30,13 @@ const Contact = () => {
               <div>
                 <div>
                   <h2 className="py-2">Ramith Sanjith Wijesinghe</h2>
-                  <p className="py-4 px-20 font-bold">
+                  <p className="py-2 mx-12 font-bold">
                     I am avilable for any Interships or Full-Time positions.
                     Contact me so we can get in touch
                   </p>
                 </div>
                 <div>
-                  <p className="pt-8 uppercase font-bold">Connect with me!!</p>
+                  <p className="pt-6 uppercase font-bold">Connect with me!!</p>
                   <div className="flex items-center justify-center py-4">
                     <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/">
                       <div className="rounded-full shadow-lg bg-white text-black mx-3  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
