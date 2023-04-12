@@ -4,6 +4,7 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import Bitcamp22 from "../public/CF-WebPage.gif";
+import Bitcamp23 from "../public/Login.PNG";
 import wImage from "../public/weather.png";
 import game from "../public/2D-Game.gif";
 import ProjectItems from "./ProjectItems";
@@ -43,6 +44,14 @@ const Projects = () => {
           </div>
           <div className="w-full flex-shrink-0 flex flex-col space-y-5 items-center justify-center p-10 md:p-20 md:px-64">
             <ProjectItems
+              title="Petsily"
+              backgroundImg={Bitcamp23}
+              projectUrl="/petsily"
+              code="NextJS, JavaScript, HTML & Tailwind CSS"
+            />
+          </div>
+          <div className="w-full flex-shrink-0 flex flex-col space-y-5 items-center justify-center p-10 md:p-20 md:px-64">
+            <ProjectItems
               title="Weather Webpage"
               backgroundImg={wImage}
               projectUrl="/weatherApp"
@@ -57,6 +66,7 @@ const Projects = () => {
               code="Unity & C#"
             />
           </div>
+          
         </Slider>
       </div>
     </motion.div>
