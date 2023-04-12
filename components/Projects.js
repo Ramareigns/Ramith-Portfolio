@@ -4,7 +4,7 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import Bitcamp22 from "../public/CF-WebPage.gif";
-import Bitcamp23 from "../public/Login.PNG";
+import Bitcamp23 from "../public/Login.png";
 import wImage from "../public/weather.png";
 import game from "../public/2D-Game.gif";
 import ProjectItems from "./ProjectItems";

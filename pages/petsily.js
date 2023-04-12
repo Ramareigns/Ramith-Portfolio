@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Bitcamp23 from "../public/Home.PNG";
+import Bitcamp23 from "../public/Home.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
