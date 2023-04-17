@@ -42,15 +42,12 @@ const birthdayGame = () => {
             build this website with JavaScript, HTML and Tailwind CSS. I came
             with this Original Idea by myself.
           </p>
-          {/* <a href="https://ramareigns.github.io/Website-Bitcam22/">
-            <button className="px-8 py-2 mt-4 mr-8 text-white">Demo(Mac)</button>
+          <a href="https://petsily.vercel.app/">
+            <button className="px-8 py-2 mt-4 mr-8 text-white">Demo</button>
           </a>
-          <a href="https://ramareigns.github.io/Website-Bitcam22/">
-            <button className="px-8 py-2 mt-4 mr-8 text-white">Demo(Windows)</button>
-          </a>
-          <a href="https://github.com/Ramareigns/Website-Bitcam22">
+          <a href="https://github.com/Ramareigns/Petsily.git">
             <button className="px-8 py-2 mt-4 text-white">Code</button>
-          </a> */}
+          </a>
         </div>
         <div className="col-span-4 mid:col-span-1 shadow-xl shadow-black rounded-xl p-4 m-10">
           <div className="p-2">
