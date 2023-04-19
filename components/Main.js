@@ -63,6 +63,7 @@ const Main = () => {
                     "Undergradute Student",
                     "Programmer",
                     "Web Developer",
+                    "Data Analyst",
                   ]}
                   loop={0}
                   cursor

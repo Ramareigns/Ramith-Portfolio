@@ -173,6 +173,21 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="p-8 shadow-xl rounded-full w-[150px] h-[150px] md:h-[150px] md:w-[150px] bg-black/30 hover:scale-105 hover:bg-purple-300 ease-in duration-300">
+            <div className="flex flex-col p-2 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  width="50"
+                  height="50"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SQL</h3>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </motion.div>

@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="lg:p-4 h-full flex md:flex-row flex-col">
               <div className="mx-auto h-[180px] w-[270px] ">
                 <img
-                  className="rounded-xl hover:scale-105 ease-in duration-300 md:h-[250px] md:w-[450px]"
+                  className="md:rounded-full rounded-xl hover:scale-105 ease-in duration-300 md:h-[250px] md:w-[450px]"
                   src="https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="/"
                 />
@@ -30,31 +30,31 @@ const Contact = () => {
               <div>
                 <div>
                   <h2 className="py-2">Ramith Sanjith Wijesinghe</h2>
-                  <p className="py-2 mx-12 font-bold">
+                  <p className="py-2 md:px-20 mx-12 font-bold">
                     I am avilable for any Interships or Full-Time positions.
                     Contact me so we can get in touch
                   </p>
                 </div>
                 <div>
                   <p className="pt-6 uppercase font-bold">Connect with me!!</p>
-                  <div className="flex items-center justify-center py-4">
+                  <div className="flex items-center justify-center pt-6">
                     <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/">
-                      <div className="rounded-full shadow-lg bg-white text-black mx-3  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
+                      <div className="rounded-full shadow-lg bg-white text-black mx-3  shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-gray-500 hover:text-white ease-in duration-300">
                         <FaLinkedinIn />
                       </div>
                     </a>
                     <a href="https://github.com/Ramareigns">
-                      <div className="rounded-full shadow-lg bg-white text-black mx-3 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
+                      <div className="rounded-full shadow-lg bg-white text-black mx-3 shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-gray-500 hover:text-white ease-in duration-300">
                         <FaGithub />
                       </div>
                     </a>
                     <a href="mailto:rwijesin@terpmail.umd.edu">
-                      <div className="rounded-full shadow-lg bg-white text-black mx-3 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
+                      <div className="rounded-full shadow-lg bg-white text-black mx-3 shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-gray-500 hover:text-white ease-in duration-300">
                         <AiOutlineMail />
                       </div>
                     </a>
                     <a href="https://twitter.com/RamithWijesingh">
-                      <div className="rounded-full shadow-lg bg-white text-black mx-3 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
+                      <div className="rounded-full shadow-lg bg-white text-black mx-3 shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-gray-500 hover:text-white ease-in duration-300">
                         <FaTwitter />
                       </div>
                     </a>
