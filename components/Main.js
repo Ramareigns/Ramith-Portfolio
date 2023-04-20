@@ -16,6 +16,7 @@ import { Typewriter } from "react-simple-typewriter";
 import ProfilePic1 from "../public/ProfilePic1.png";
 import Robot from "../public/HiRobot.gif";
 import { animateScroll as scroll, Link } from "react-scroll";
+import styled, { keyframes } from "styled-components";
 
 const Main = () => {
   const [nav, setNav] = useState(false);
@@ -58,6 +59,19 @@ const Main = () => {
     setNav(!nav);
     scroll.scrollToTop();
   };
+
+  const glow = keyframes`
+  from {
+    box-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;
+  }
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+  }
+`;
+
+  const GlowingImage = styled(Image)`
+    animation: ${glow} 3s ease-in-out infinite alternate;
+  `;
   return (
     <div id="Main" className="w-full h-screen text-center ">
       {/* <div className="p-2 ">
@@ -74,7 +88,7 @@ const Main = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.5 }}
           >
-            <Image
+            <GlowingImage
               className="relative rounded-full h-[300px]] w-[200px] md:h-[250px] md:w-[250px] mx-auto mb-10"
               src={ProfilePic1}
               alt=""
