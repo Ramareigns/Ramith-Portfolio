@@ -36,7 +36,7 @@ const Work = () => {
         </div>
         <div className="px-5 py-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
           <div>
-            <h2 className="py-4">University of Maryland - TerpEngage Intern</h2>
+            <h2 className="py-4">University of Maryland - TerpEngage Data Analyst Intern</h2>
             <h3 className="text-purple-600">(January 2022 - Present)</h3>
           </div>
 

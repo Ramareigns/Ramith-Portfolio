@@ -54,7 +54,7 @@ const About = () => {
                 target="_blank"
               >
                 <p className="text-center py-3  text-black font-bold text-lg rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
-                  Resume
+                  Cover Letter & Resume
                 </p>
               </Link>
             </div>
