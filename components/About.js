@@ -21,13 +21,13 @@ const About = () => {
         </div>
         <div className="px-5 gap-10 w-full h-full mx-auto p-2 flex flex-col md:flex-row text-center md:text-left justify-center items-center">
           <motion.div
-            variants={fadeIn("right", 0.5)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: false, amount: 0.3 }}
           >
             <Image
-              className="relative rounded-xl h-[200px] w-[150px] md:h-[450px] md:w-[1200px] mx-auto"
+              className="relative rounded-xl h-[200px] w-[150px] md:h-[425px] md:w-[1200px] mx-auto"
               src={ProfilePic2}
               alt=""
               width="600"

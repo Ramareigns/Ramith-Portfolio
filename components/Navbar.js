@@ -37,6 +37,8 @@ const Navbar = () => {
     window.addEventListener("scroll", handleShadow);
   }, []);
 
+  
+
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}
@@ -50,44 +52,6 @@ const Navbar = () => {
         <Link href="/">
           <Image src={Robot} alt="/" width="75" height="25" />
         </Link>
-        {/* 
-        <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
-                Home
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
-                About
-              </li>
-            </Link>
-            <Link href="/#Work">
-              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
-                Work
-              </li>
-            </Link>
-            <Link href="/#Skills">
-              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
-                Skills
-              </li>
-            </Link>
-            <Link href="/#Projects">
-              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
-                Projects
-              </li>
-            </Link>
-            <Link href="Resume & Cover Letter- Ramith Wijesinghe.pdf" target="_blank">
-              <li className="ml-10 text-sm font-bold text-purple-500 uppercase hover:border-b hover:text-purple-800 border-black">
-                Resume
-              </li>
-            </Link>
-          </ul>
-          <div onClick={handleNav} className="md:hidden text-black">
-            <AiOutlineMenu size={25} />
-          </div>
-        </div> */}
       </div>
       <div
         className={

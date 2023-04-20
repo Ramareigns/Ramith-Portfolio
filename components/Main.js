@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import {
@@ -16,27 +15,65 @@ import { fadeIn } from "@/components/variants";
 import { Typewriter } from "react-simple-typewriter";
 import ProfilePic1 from "../public/ProfilePic1.png";
 import Robot from "../public/HiRobot.gif";
+import { animateScroll as scroll, Link } from "react-scroll";
 
 const Main = () => {
   const [nav, setNav] = useState(false);
   const [linkColor, setLinkColor] = useState("#1f2937");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const aboutSection = document.getElementById("About");
+      const skillsSection = document.getElementById("Skills");
+      const projectsSection = document.getElementById("Projects");
+      const contactSection = document.getElementById("Contact");
+
+      if (
+        currentScrollY < aboutSection.offsetTop - 200 ||
+        currentScrollY > contactSection.offsetTop + 200
+      ) {
+        setLinkColor("#1f2937");
+      } else if (
+        currentScrollY >= aboutSection.offsetTop - 200 &&
+        currentScrollY < skillsSection.offsetTop - 200
+      ) {
+        setLinkColor("#8B5CF6");
+      } else if (
+        currentScrollY >= skillsSection.offsetTop - 200 &&
+        currentScrollY < projectsSection.offsetTop - 200
+      ) {
+        setLinkColor("#06B6D4");
+      } else if (currentScrollY >= projectsSection.offsetTop - 200) {
+        setLinkColor("#EF4444");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleNav = () => {
+    setNav(!nav);
+    scroll.scrollToTop();
+  };
   return (
     <div id="Main" className="w-full h-screen text-center ">
-      
       {/* <div className="p-2 ">
       <Image src={Robot} alt="/" width="75" height="25" />
       </div> */}
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        
         {/* <div className = " flex absolute justify-center items-center hover:scale-125 ease-in duration-300">
         <div className=" rounded-full  border border-[#F7ABBA] opacity-10 h-80 w-80 animate-pulse "/>
       </div> */}
         <div className="mx-10">
           <motion.div
-           variants={fadeIn("down", 0.5)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{ once: false, amount: 0.5 }}>
+            variants={fadeIn("down", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.5 }}
+          >
             <Image
               className="relative rounded-full h-[300px]] w-[200px] md:h-[250px] md:w-[250px] mx-auto mb-10"
               src={ProfilePic1}
@@ -75,32 +112,6 @@ const Main = () => {
               </span>
             </div>
           </motion.div>
-
-          {/* <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
-            <a
-              href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/"
-              target="_blank"
-            >
-              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500 ease-in duration-300">
-                <FaLinkedinIn />
-              </div>
-            </a>
-            <a href="https://github.com/Ramareigns" target="_blank">
-              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
-                <FaGithub />
-              </div>
-            </a>
-            <a href="mailto:rwijesin@terpmail.umd.edu" target="_blank">
-              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
-                <AiOutlineMail />
-              </div>
-            </a>
-            <a href="https://twitter.com/RamithWijesingh" target="_blank">
-              <div className="rounded-full shadow-lg bg-white text-black shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-gray-500  ease-in duration-300">
-                <FaTwitter />
-              </div>
-            </a>
-          </div> */}
         </div>
       </div>
       <nav className="fixed bottom-4 mx-auto lg:bottom-8 z-50 w-full overflow-hidden">
@@ -108,49 +119,43 @@ const Main = () => {
           {/* <ul style={{ color: `${linkColor}` }} className="hidden md:flex"> */}
           <div className="bg-black/20 w-full  backdrop-blur-3xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl ">
             <Link
-              href="/#Main"
+              to="Main"
               smooth={true}
-    
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90  active:bg-white active:rounded-full  "
             >
               <BiHomeAlt />
             </Link>
             <Link
-              href="/#About"
+              to="About"
               smooth={true}
-             
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsFillPersonFill />
             </Link>
             <Link
-              href="/#Work"
+              to="Work"
               smooth={true}
-             
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsBriefcase />
             </Link>
             <Link
-              href="/#Skills"
+              to="Skills"
               smooth={true}
-             
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsFillLightningChargeFill />
             </Link>
             <Link
-              href="/#Projects"
+              to="Projects"
               smooth={true}
-            
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsClipboardData />
             </Link>
             <Link
-              href="/#Contact"
+              to="Contact"
               smooth={true}
-              
               className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-purple-800 text-white/90 active:bg-white active:rounded-full  "
             >
               <BsChatSquare />

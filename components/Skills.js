@@ -3,7 +3,7 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "@/components/variants";
 
-const Skills = () => {
+const Skills = ({ handleClick }) => {
   return (
     <motion.div
       id="Skills"
