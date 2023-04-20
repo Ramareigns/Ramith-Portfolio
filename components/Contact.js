@@ -11,13 +11,13 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-    className="w-full lg:h-screen text-center p-2 mb-16">
+    className="w-full md:h-screen p-2 flex items-center text-center mb-64">
       <div className="max-w-[1240px] m-auto px-2  w-full ">
-        <h2 className="py-2 tracking-widset ">Contact</h2>
+        <h2 className="py-2 tracking-widset  ">Contact</h2>
         <p className="font-bold p-2 text-purple-800 uppercase text-center">
           Get In Touch with Me
         </p>
-        <div className="w-full  items-center justify-center flex">
+        <div className="w-full mt-5 items-center justify-center flex">
           <div className=" md:max-w-[1200px] shadow-xl shadow-black rounded-xl sm:p-8 p-2 ">
             <div className="lg:p-4 h-full flex md:flex-row flex-col">
               <div className="mx-auto h-[180px] w-[270px] ">
@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="pt-6 uppercase font-bold">Connect with me!!</p>
-                  <div className="flex items-center justify-center pt-6">
+                  <div className="flex items-center justify-center pt-6 pb-4">
                     <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/">
                       <div className="rounded-full shadow-lg bg-white text-black mx-3  shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-gray-500 hover:text-white ease-in duration-300">
                         <FaLinkedinIn />

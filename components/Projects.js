@@ -28,7 +28,7 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-col max-w-full md:px-10 md:mb-64 mx-auto items-center"
+      className="w-full md:h-screen p-2 mb-64 h-screen flex relative overflow-hidden flex-col text-lft md:flex-col max-w-full md:px-10 md:mb-64 mx-auto items-center"
     >
       <h2 className="py-5 ">Projects</h2>
       <p className="font-bold p-2 text-purple-800 uppercase">What I've Built</p>

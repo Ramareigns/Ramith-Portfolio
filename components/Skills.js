@@ -10,7 +10,7 @@ const Skills = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="w-full p-4 mb-64 "
+      className="w-full md:h-screen p-2 flex items-center mb-64"
     >
       <div className="max-w-[1240px] mx-auto flex flex-col text-center justify-center h-full ">
         <h2 className="py-4 tracking-widset">Skills</h2>
