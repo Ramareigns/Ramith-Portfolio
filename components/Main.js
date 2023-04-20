@@ -22,38 +22,6 @@ const Main = () => {
   const [nav, setNav] = useState(false);
   const [linkColor, setLinkColor] = useState("#1f2937");
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      const aboutSection = document.getElementById("About");
-      const skillsSection = document.getElementById("Skills");
-      const projectsSection = document.getElementById("Projects");
-      const contactSection = document.getElementById("Contact");
-
-      if (
-        currentScrollY < aboutSection.offsetTop - 200 ||
-        currentScrollY > contactSection.offsetTop + 200
-      ) {
-        setLinkColor("#1f2937");
-      } else if (
-        currentScrollY >= aboutSection.offsetTop - 200 &&
-        currentScrollY < skillsSection.offsetTop - 200
-      ) {
-        setLinkColor("#8B5CF6");
-      } else if (
-        currentScrollY >= skillsSection.offsetTop - 200 &&
-        currentScrollY < projectsSection.offsetTop - 200
-      ) {
-        setLinkColor("#06B6D4");
-      } else if (currentScrollY >= projectsSection.offsetTop - 200) {
-        setLinkColor("#EF4444");
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const handleNav = () => {
     setNav(!nav);
