@@ -22,7 +22,6 @@ const Main = () => {
   const [nav, setNav] = useState(false);
   const [linkColor, setLinkColor] = useState("#1f2937");
 
-
   const handleNav = () => {
     setNav(!nav);
     scroll.scrollToTop();

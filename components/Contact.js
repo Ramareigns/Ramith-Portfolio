@@ -11,7 +11,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-    className="w-full md:h-screen p-2 flex items-center text-center mb-64">
+    className="w-full h-screen md:h-screen p-2 flex text-center mb-64">
       <div className="max-w-[1240px] m-auto px-2  w-full ">
         <h2 className="py-2 tracking-widset  ">Contact</h2>
         <p className="font-bold p-2 text-purple-800 uppercase text-center">
