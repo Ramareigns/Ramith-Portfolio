@@ -11,22 +11,24 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-    className="w-full h-screen md:h-screen p-2 flex text-center mb-64">
-      <div className="max-w-[1240px] m-auto px-2  w-full ">
-        <h2 className="py-2 tracking-widset  ">Contact</h2>
-        <p className="font-bold p-2 text-purple-800 uppercase text-center">
-          Get In Touch with Me
-        </p>
-        <div className="w-full mt-5 items-center justify-center flex">
-          <div className=" md:max-w-[1200px] shadow-xl shadow-black rounded-xl sm:p-8 p-2 ">
+    className="w-full h-screen md:h-screen flex text-center">
+      <div className="max-w-[1240px] m-auto px-2">
+        
+        <div className="w-full items-center justify-center flex">
+          <div className=" md:max-w-[1200px] bg-gray-400 shadow-xl shadow-black rounded-xl sm:p-8 p-2 ">
+            <h2 className="py-2 tracking-widset  ">Contact Me</h2>
+            <p className="font-bold p-2 text-purple-800 uppercase text-center">
+              Get In Touch with Me
+            </p>
             <div className="lg:p-4 h-full flex md:flex-row flex-col">
-              <div className="mx-auto h-[180px] w-[270px] ">
+              {/* <div className="mx-auto h-[180px] w-[270px] ">
+                
                 <img
-                  className="md:rounded-full rounded-xl hover:scale-105 ease-in duration-300 md:h-[250px] md:w-[450px]"
+                  className="md:rounded-lg rounded-xl hover:scale-105 ease-in duration-300 md:h-[250px] md:w-450px]"
                   src="https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="/"
                 />
-              </div>
+              </div> */}
               <div>
                 <div>
                   <h2 className="py-2">Ramith Sanjith Wijesinghe</h2>
