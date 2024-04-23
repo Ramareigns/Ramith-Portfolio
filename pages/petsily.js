@@ -49,7 +49,7 @@ const birthdayGame = () => {
             <button className="px-8 py-2 mt-4 text-white">Code</button>
           </a>
         </div>
-        <div className="col-span-4 mid:col-span-1 shadow-xl shadow-black rounded-xl p-4 m-10">
+        <div className="col-span-4 mid:col-span-1 shadow-xl bg-gray-400 shadow-black rounded-xl p-4 m-5">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">

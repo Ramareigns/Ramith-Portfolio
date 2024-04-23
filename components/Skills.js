@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import pAuth from "../public/pauth.svg";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "@/components/variants";
 
@@ -162,7 +163,7 @@ const Skills = ({ handleClick }) => {
             <div className="flex flex-col p-2 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
                   width="50"
                   height="50"
                   alt="/"
@@ -170,6 +171,21 @@ const Skills = ({ handleClick }) => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Laravel</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-8 shadow-xl rounded-full  w-[150px] h-[150px] md:h-[150px] md:w-[150px] bg-black/30 hover:scale-105 hover:bg-purple-300 ease-in duration-300">
+            <div className="flex flex-col p-2 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="https://docs.propelauth.com/favicon.svg"
+                  width="50"
+                  height="50"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>PropelAuth</h3>
               </div>
             </div>
           </div>
