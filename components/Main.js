@@ -74,7 +74,7 @@ const Main = () => {
             </h2>
 
             <div className="py-4 font-bold text-xl md:text-3xl text-gray-500">
-              <span className="text-white mr-4">I am a</span>
+              <span className="text-white mr-4">I am an</span>
               <span>
                 <Typewriter
                   words={[
